@@ -1,0 +1,9 @@
+php artisan serve - run app
+php artisan make:migration create_todos_table - create table
+php artisan migrate - migrate database
+php artisan db:seed - run database factories
+php artisan migrate:refresh - refresh database (remove users data)
+php artisan migrate:refresh --seed - migrate database and run database factories
+php artisan make:model Todo - create model
+php artisan make:factory TodoFactory - make factory
+    Factory is used to make dummy data
